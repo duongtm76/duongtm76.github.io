@@ -7,22 +7,21 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Nhan Tran Dev 96",
-  title: "Hi there, I'm Nhan",
-  subTitle: emoji("A passionate Web Developer 🚀 I had over 5 years of professional experience in website design, website application, landing page, e-commerce, management systems and more with skills: PHP, Laravel, MySQL, HTML5, CSS3, Bootstrap, Tailwind, Javascript, jQuery, VueJs, Github, PSD to HTML. If you don't know how to start to build your website, please contact me via inbox to get started."),
+  username: "DuongTM",
+  title: "Hi there, I'm Duong",
+  subTitle: emoji("A passionate Web Developer 🚀 I had over 5+ years of professional experience in website design, website application, landing page, e-commerce, management systems and more with skills: C#, PHP, .Net Core, ReactJs, Laravel, SQL Server, MySQL, HTML5, CSS3, Bootstrap, Javascript, jQuery, Github, Gitlab, Bitbucket, Azure DevOps, Jira, PSD to HTML. If you don't know how to start to build your website, please contact me via inbox to get started."),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
-  github: "https://github.com/nhantrandev96",
-  linkedin: "https://www.linkedin.com/in/trần-nhân-b5559b18a",
-  gmail: "tranvannhan100896@gmail.com",
-  gitlab: "https://gitlab.com/nhantrandev96",
+  github: "https://github.com/duongtm76",
+  linkedin: "https://www.linkedin.com/in/duongtm",
+  gmail: "duongtm76@gmail.com",
+  // gitlab: "https://gitlab.com/duongtm76",
   // facebook: "https://www.facebook.com/tranvannhan100896",
-  medium: "https://medium.com/@nhnvntrn",
-  stackoverflow: "https://stackoverflow.com/users/10371414/tran-nhan"
+  // stackoverflow: "https://stackoverflow.com/users/10371414/tran-nhan"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -64,7 +63,15 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "VueJS",
+      skillName: "C#",
+      fontAwesomeClassname: "fab fa-windows"
+    },
+    {
+      skillName: "ReactJs",
+      fontAwesomeClassname: "fab fa-vuejs"
+    },
+    {
+      skillName: "AngularJs",
       fontAwesomeClassname: "fab fa-vuejs"
     },
     {
@@ -80,14 +87,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-laravel"
     },
     {
-      skillName: "Shopify",
-      fontAwesomeClassname: "fab fa-shopify"
-    },
-    {
-      skillName: "Wix",
-      fontAwesomeClassname: "fab fa-wix"
-    },
-    {
       skillName: "Wordpress",
       fontAwesomeClassname: "fab fa-wordpress"
     },
@@ -100,10 +99,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "CentOS",
-      fontAwesomeClassname: "fab fa-centos"
-    },
-    {
       skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
@@ -111,10 +106,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
-    {
-      skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ]
 };
 
@@ -124,23 +115,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Backend/CMS(PHP Laravel, NodeJs)",  //Insert stack or technology you have experience in
+      Stack: "Backend/CMS(C#, PHP Laravel, NodeJs)",  //Insert stack or technology you have experience in
       progressPercentage: "100%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Frontend/Design (HTML, CSS, JavaScript, Bootstrap, Tailwind, jQuery, VueJS)",
+      Stack: "Frontend/Design (HTML, CSS, JavaScript, Bootstrap, jQuery, ReactJs, AngularJs)",
       progressPercentage: "100%"
     },
     {
       Stack: "Wordpress",
-      progressPercentage: "90%"
-    },
-    {
-      Stack: "Shopify Platform",
-      progressPercentage: "90%"
-    },
-    {
-      Stack: "Wix Platform",
       progressPercentage: "90%"
     },
   ]
@@ -157,10 +140,6 @@ const workExperiences = {
       company: "3Forcom",
       date: "Aug 2016 - Dec 2018",
       desc: "3FORCOM is an international IT partner. We can start from analyzing your actual business requirements for a web solution or a multi-platforms solution, continue with a great web design, web development, third-party integration and mobile development. Since 2008, we have provided effective design and development solutions for our corporate and startup clients.",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
     },
     {
       role: "Fullstack Developer",   
